@@ -1,0 +1,29 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.acme.samples</groupId>
+  <artifactId>register-sme</artifactId>
+  <version>1.0</version>
+  <packaging>war</packaging>
+  <build>
+        <finalName>register-sme</finalName>
+  </build>
+
+  <dependencies>
+        <dependency>
+          <groupId>javax.portlet</groupId>
+          <artifactId>portlet-api</artifactId>
+          <version>2.0</version>
+          <scope>provided</scope>
+        </dependency>
+        
+          <dependency>
+  <groupId>javax.servlet</groupId>
+  <artifactId>servlet-api</artifactId>
+  <version>2.5</version>
+  <scope>provided</scope>
+</dependency>
+  </dependencies>
+  
+
+  
+</project>
